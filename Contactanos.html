@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+       <html lang="es">
+           <head>
+        <meta charset="utf-8" />
+              <title>CURSOS</title>
+             </head>
+               <body>
+                <table style="margin: auto;width: 90%;">
+                  <tr>
+                    <td><img src="zo2.jpg" height="70px" width="100" </td>
+                    <td><h1> zoofari</h1></td>
+                    <td>
+                      <td>
+                      <a href="practica7.html" target="_blank">Inicio</a>
+                    
+                    <td><a href="Qué hacemos.html" target="_blank">¿Que asemos?</a></td>
+                    <td><a href="Contactanos.html" target="_black">Contactanos</a></td>
+                    <td><a href="Eco  tips.html" target="_blank">Eco tips</a></td>
+              
+                  
+                  </tr>
+                </table>
+                    <header>
+     <h1>CURSOS</h1>
+       <h2>Formulario de registro</h2>
+         </header>
+         <form action=" AQUÍ VA EL CORREO ELECTRÓNICO TUYO " method="POST">
+            <fieldset>
+               <legend>¿Quién eres?</legend>
+               <p>
+                 <label for="nombre">Nombre</label>
+                 <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre"/>
+                 <label for="apellidos">Apellidos</label>
+                  <input type="text" name="apellidos" id="apellidos" placeholder="Introduce apellidos"/>
+                 </p>
+                 <p>
+                   <label form="email">Correo electrónico</label> 
+                   <input type="email" id="email" name="email" placeholder=" tu corr@o electronico"/>
+                 </p>
+                 <label form="Fecha de nacimiento">Fecha de nacimiento</label>
+                 <input type="date" id="Fecha de nacimiento" name="Fecha de nacimiento"
+               </fieldset>
+                 <fieldset>
+                   <legend>¿De dónde eres?</legend>
+                   <p>
+                     <label for="ciudad">Ciudad</label>
+                     <input type="text" name="ciudad" id="ciudad" placeholder=" ciudad de donde orijina"/>
+                   </p>
+                   <p>
+                     <label for="cp">Código postal</label>
+                     <input type="text" name="cp" id="cp" placeholder=" tu codigo postal"/>
+                     <label>5 dígitos</label>
+                   </p>
+                   <p>
+                     <label for="pais">País</label>
+                     <select name="pais" id="pais">
+                       <option>Elige tu país</option>
+                       <option>México</option>
+                       <option>Estados Unidos</option>
+                       <option>China</option>
+                       <option>Japón</option>
+                       <option>Francia</option>
+                       <option>Canada</option>
+                     </select>
+                    </p>
+                   </fieldset>
+                   <fieldset>
+                     <legend>¿Cómo quieres iniciar sesión?</legend>
+                     <p>
+                       <label for="nomusu">Nombre de usuario *(letras del alfabeto inglés y numeros, mínimo 4 carácteres)</label>
+                       <input type="text" name="nomusu" id="nomusu" placeholder=" mataviejitas/>
+                     </p>
+                     <p>
+                       <label for="contraseña">Contraseña*(letras del alfabeto inglés, numeros, guión "-", subrayado"_", mínimo 8 carácteres)</label>
+                     </p>
+                     <input type="password" name="contraseña" id="contraseña" placeholder=" ejemplo:1pelos123"/>
+                     <p>
+                       <label for="repcontraseña">Vuelve a escribir la contraseña</label>
+                     </p>
+                     <input type="password" name="repcontraseña" id="repcontraseña" placeholder=" ejemplo:1pelos123"/>
+                   </fieldset>
+                   <fieldset>
+                     <legend>Condiciones de registro</legend>
+                     <p>
+                       <label>Deseo recibir información ofertas de ¡DEWEB</label>
+                     </p>
+                     <p>
+                       <input type="radio" name="ofertas" id="ofertas1" value="1" /><label for="ofertas1" class="inline">Una vez al día</label>
+                       <input type="radio" name="ofertas" id="ofertas2" value="2" /><label for="ofertas2" class="inline">Una vez a la semana</label>
+                       <input type="radio" name="ofertas" id="ofertas3" value="3" /> <label for="ofertas3" class="inline">Una vez al mes</label>
+                     </p>
+                     <p>
+                       <input type="checkbox" name="acepto" id="acepto" />
+                       <label for="acepto" class="inline">Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies</label>
+                     </p>
+                   </fieldset>
+                   <br>
+                   <input type="submit" value="Crear cuenta" id="boton-crear">
+                   <input type="reset" value="Borrar">
+                  </form>
+                 </table>
